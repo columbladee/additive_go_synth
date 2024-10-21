@@ -19,13 +19,10 @@ synthesizer/
 ├── pkg/
 │   ├── audio/
 │   │   └── output.go
-│   ├── gui/
-│   │   ├── app.go
-│   │   ├── components.go
-│   │   └── handlers.go
 │   ├── midi/
 │   │   └── input.go
 │   ├── synth/
+│   │   ├── engine.go         // Added engine.go
 │   │   ├── oscillator.go
 │   │   ├── waveform.go
 │   │   ├── filter.go
